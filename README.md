@@ -6,7 +6,7 @@ Best way to introduce validations into components.
 Example:
 Given example is in coffeescript, but of course you may use the example from examples directory. 
 
-``
+```
 Validtor = require 'uzy-react-validator'
 
 onSubmit: (e) =>
@@ -29,4 +29,4 @@ form className: 'form', onSubmit: @onSubmit,
     errorTitle    : 'Your birthdate'
     ref           : 'dateOfBirth'
       
-``
+```
